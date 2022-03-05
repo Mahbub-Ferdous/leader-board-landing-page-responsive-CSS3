@@ -1,0 +1,334 @@
+/**************** 
+    fonts 
+****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro:wght@100&family=Bree+Serif&family=Luckiest+Guy&family=Orelega+One&family=Poppins:wght@100;500&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+/***********************************
+    body-common-style or utilities
+************************************/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 875px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 110px;
+    /* there have 2 container so we use this container class for common utilities */
+}
+.container-2 {
+    width: 875px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 25px;
+}
+hr {
+    border: 1px solid #D1D1D1;
+}
+
+
+/************************ 
+    Header-Nav-start
+*************************/
+
+.header{
+    position: fixed;
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+    margin-top: -8px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    
+}
+.logo img {
+    position: absolute;
+    width: 40.42px;
+    height: 51px;
+    top: 20px;
+    left: 220px;
+}
+.logo-name{
+    position: absolute;
+    width: 54px;
+    height: 36px;
+    left: 265px;
+    top: 12px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.nav-bar{
+    display: flex;
+    margin: 35px;
+    
+}
+.anchor {
+    text-decoration: none;
+    width: 49px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.profile{
+    position: absolute;
+    top: 20px;
+    left: 1070px;
+    width: 30px;
+    height: 30px;
+}
+/************************ 
+    Header-Nav-end
+*************************/
+
+
+
+/***************************
+    Top - Player - start 
+****************************/
+.top-players {
+    margin-bottom: 25px;
+}
+.section-title {
+    font-weight: 400;
+    font-size: 22px;
+    color: #562EFF;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.players {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 29px;
+    column-gap: 120px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 16px;
+}
+
+
+/***************************
+    Top - Player - end 
+****************************/
+
+/************************
+    Top-blogs-start 
+*************************/
+
+.top-blogs {
+    padding-top: 10px;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px 46px;
+    margin-left: 10px;
+}
+.blog {
+    display: flex;
+    align-items: center;
+}
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+.blog-details {
+    margin-left: 16px;
+}
+.blog-title {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 6px;
+    margin-top: -20px;
+}
+.blog-author {
+    font-size: 16px;
+    color: #9F9F9F;
+    margin: 0;
+}
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+/************************
+    Top-blogs-End
+*************************/
+
+
+/************************
+    Our-Courses-start 
+*************************/
+
+.our-courses {
+    margin-bottom: 30px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 10px;
+}
+.course {
+    Width: 240px;
+    Height: 250px;
+    background-color: #FFFFFF;
+    /* filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); */
+    padding: 15px;
+    border-radius: 10px;
+}
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+.course-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+.course-author a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+    margin: 0;
+}
+.course-info {
+    display: flex;
+    align-items: center;
+}
+.course-info span {
+    color: #AEAEAE;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.course-info .filled {
+    color: #FFC014;
+}
+.fa-solid{
+    font-size: 12px;
+}
+.fa-solid.empty {
+    color: #AEAEAE;
+    /* opacity: 0.45; */
+}
+.course-duration {
+    background-color: #FEE5DF;
+    border-radius: 14.6913px;
+    width: 95px;
+    padding-left: 10px;
+    padding-top: 1px;
+    color: #ED6B4F;
+    margin-left: 20px;
+}
+
+/************************
+    Our-Courses- End
+*************************/
+
+
+/************************* 
+    Media Queries Start
+*************************/
+
+/********************************
+    Mobile Device Queries-start
+*********************************/
+
+@media only screen and (max-width:688px){
+    .header{
+        width: 688px;
+        height: 94px;
+        left: 0;
+    }
+    .logo {
+        position: absolute;
+        left: -180px;
+    }
+    .nav-bar{
+        position: absolute;
+        left: 130px;
+        visibility: visible;
+        font-size: 5px;
+    }
+    .anchor{
+        padding-left: 15px;
+    }
+    .profile{
+        visibility: visible;
+        position: absolute;
+        left: 230px;
+        top: -12px;
+    }
+    .container { 
+        width: 80%;
+    }
+    .container-2 {
+        width: 80%;
+    }
+    .section-title {
+        text-align: center;
+    }
+    .top-players {
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+       display: flex;
+       flex-direction: column; 
+    }
+    .blog-details{
+        margin-top: 30px;
+    }
+    .our-courses {
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/********************************* 
+    Mobile Device Queries- end 
+**********************************/
+
